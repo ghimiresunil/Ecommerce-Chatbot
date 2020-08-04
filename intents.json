@@ -1,0 +1,210 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hii", ".","hola"],
+         "responses": ["Hello!", "Hi there, how can I help?","yes, how can I help","Good to see you again!", "Welcome", "How can I help ", "yes i am heraring"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "ok thanks", "bye", "Bye Bye", "OK thanks","ok","bye","thanks","Thankyou"],
+         "responses": ["Sad to see you go 😒", "Talk to you later", "Goodbye!", "Catch you later","Take care 😊","Bye","See you later","See you again"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "Your name", "Who are you?","name","tell your name"],
+         "responses": ["You can call your personal assistant.", "I'm your asststant!" ,"I am a GadgetBot"],
+         "context_set": ""
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand","Hmmm...i didn't understand","I cant understand sorry."],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","guide me"],
+         "responses": ["I can guide you throughthe website", "Help you to guide through this website"],
+         "context": [""]
+        },
+        {"tag": "shop",
+         "patterns": ["I d like to buy something", "whats on the menu?", "what do you recommend?", "could i get something to eat?","whats on menu?","buy","items","items available"],
+         "responses": ["!", "you can find on category section.","please, go through category section of shop page"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["service available", "what are your hours", "hours of operation","available time","open time","available","time","open","service"],
+         "responses": ["We are open 24*7","all time for you","anytime we are available"],
+         "context_set": ""
+        },
+        {"tag": "product",
+         "patterns": ["what kinds of item are available?", "whats on the menu?", "what do you reccommend?", "Which is the best product","What are the product available","suggest me best product","product","buy product","need some product"],
+         "responses": ["You can find the product detail in shop page.", "you can find different products related to gadget.","please go through category page on shop","gadget related product are available","Gadget like smartphone Laptop Tv are available"],
+         "context_set": ""
+        },
+        {"tag": "payment",
+         "patterns": ["How do I pay?", "What are the payment option?", "Is there any online payment option?", "cash on delivery or online payment?","pay","payment","payment","option for paying"],
+         "responses": ["we do not have any online payment option but u can pay after the product is deliver.", "Currently, only cash on deleviry is available","we are under developing phase so we have only cash on deleiver system."],
+         "context_set": ""
+        },
+        {"tag": "Contact",
+         "patterns": ["How can i contact ?", "Can i get a contact information?", "take me to the contact page?", "contact information?","how to contact you","need your help","i want help","location","address","get location","store information","address"],
+         "responses": ["Location - Dhumbarahi kathmandu, email-gadgetelectronic@gmail.com", "you can find contact information our contact page","please go through contact page"],
+         "context_set": ""
+        },
+        {"tag": "smartphone",
+         "patterns": ["what kinds of smartphones are available?", "Smartphone detail?", "Smartphone company?", "best mobile?", "Smartphone,", "Mobile", "handset","phone","smartphone gadget","mobile detail","phone available","latest mobile","latest smartphone","new phone"],
+         "responses": ["currently we have only 2 brands. Samsung, Xiaomi", "You can find the mobile detail in shop page","Samsung, Xiaomi","Samsung, Xiaomi device are available","you can find in shop/smartphone section","currently,two brands are available, Samsung and Xiaomi"],
+         "context_set": ""
+        },
+        {"tag": "Samung smartphone",
+         "patterns": ["samsung mobile", "Samsung Smartphone detail?", "samsung company?", "best samsung mobile?", "samsung phone,", "samsung Mobile", "samsung handset","phone of samsung in nepal","Samsung smartphone gadget","samsung mobile detail","samsung phone available","latest samsung mobile","latest mobile product","new samsung phone"],
+         "responses": ["list of samsung mobiles are Samsung Galaxy A51, Samsung Galaxy M40 and Samsung Galaxy A71 ","Samsung Galaxy A51, Samsung Galaxy M40 and Samsung Galaxy A71","Samsung Galaxy A51, Samsung Galaxy M40 and Samsung Galaxy A71 are available","you can find smartphone in shop page. currently Samsung Galaxy A51, Samsung Galaxy M40 and Samsung Galaxy A71 are available"],
+         "context_set": ""
+        },
+        {"tag": "Samung Galaxy A51",
+         "patterns": ["Samung Galaxy A51", "Samung Galaxy A51 detail?", "price of Samung Galaxy A51?", "best samsung mobile?", "samsung phone Samung Galaxy A51,", "A51", "samsung handset Samung Galaxy A51","smartphone under 40k","smartphone under 40000","Samung Galaxy A51 detail","smartphone under 50000","Samung  A51"," Galaxy A51","Samung Galaxy A51 specification"],
+         "responses": ["price of Samung Galaxy A51 is Rs 38,399","price is Rs 38,399", "Body: 6.24 x 2.90 x 0.31 inches; 172 gm,RAM: 6GB,Storage: 128GB and price is Rs 38,399","smart under 40000 is Samsung galaxy A51", "smartphone unser 50000 is Samsung galaxy A51","you can find the detail on shop page smartphone category."],
+         "context_set": ""
+        },
+       {"tag": "Samung Galaxy A71",
+         "patterns": ["Samung Galaxy A71", "Samung Galaxy A71 detail?", "price of Samung Galaxy A71?", "best samsung mobile?", "samsung phone Samung Galaxy A71,", "A71", "samsung handset Samung Galaxy A71","smartphone under 80000","smartphone under 40000","Samung Galaxy A71 detail","smartphone under 80k","Samung  A71"," Galaxy A71","Samung Galaxy A71 specification"],
+         "responses": ["price of Samung Galaxy A51 is Rs 72,500","price is Rs 72,500", "Body: 75.5 x 162.5 x 8.1mm; 185 gm,RAM: 6GB,Storage: 128GB,Battery: 4500 mAh with 25W Super Fast Charge and price is Rs 72,500","smart under 80000 is Samsung galaxy A71", "smartphone under 80000 is Samsung galaxy A71","you can find the detail on shop page smartphone category."],
+         "context_set": ""
+        },
+       {"tag": "Samung Galaxy M40",
+         "patterns": ["Samung Galaxy M40", "Samung Galaxy M40 detail?", "price of Samung Galaxy M40?", "best samsung mobile M40?", "samsung phone Samung Galaxy M40,", "M40", "samsung handset Samung Galaxy M40","smartphone under 30000","smartphone under 30k","Samung Galaxy M40 detail","smartphone under 40000","Samung M40"," Galaxy M40","Samung Galaxy M40 specification"],
+         "responses": ["price of Samung Galaxy A51 is Rs 25,990","price is Rs 25,990", "Display: 6.4 “, 19: 9, Full HD +, 2400 x 1080 pixels, IPS,RAM: 6 GB,Internal memory: 128 GB, price is RS 25,990","smart under 30000 is Samsung galaxyM40", "smartphone unser 40000is Samsung galaxy M40","you can find the detail on shop page smartphone category."],
+         "context_set": ""
+        },
+       {"tag": "Xiaomi smartphone",
+         "patterns": ["Xiaomi mobile", "Xiaomi Smartphone detail?","Xiaomi company?","best xiaomi mobile?", "xiaomi phone","xiaomi Mobile","xiaomi handset","phone of xiaomi in nepal","xiaomi smartphone gadget","xiaomi mobile detail","xiaomi phone available","latest xiaomi mobile","latest  xiaomi mobile product","new xiaomi phone"],
+         "responses": ["list of samsung mobiles are Redmi Note 7 Pro, Redmi Note 8 Pro and Redmi k20 Pro", "Redmi Note 7 Pro, Redmi Note 8 Pro and Redmi k20 Pro are available","Redmi Note 7 Pro, Redmi Note 8 Pro and Redmi k20 Pro","you can find smartphone on shop page. currently Redmi Note 7 Pro, Redmi Note 8 Pro and Redmi k20 Pro are available"],
+         "context_set": ""
+        },
+         {"tag": "Redmi Note 7 Pro",
+         "patterns": ["Redmi Note 7 Pro", "Redmi Note 7 Pro detail?", "price of Redmi Note 7 Pro?", "best samsung mobile Redmi Note 7 Pro?", "xiaomi phone Redmi Note 7 Pro,", "Redmi Note 7 Pro", "xiaomi handset Redmi Note 7 Pro","smartphone under 25000","smartphone under 25k","Redmi Note 7 Pro detail","smartphone under 40000","Redmi Note 7 Pro"," Note 7 Pro","Redmi Note 7 Pro specification"],
+         "responses": ["price of Redmi Note 7 Pro is Rs 23,999","price is Rs 23,999", "Display: 6.3inch LTPS display with Gorilla Glass 5 protection,RAM:4GB,Storage:64GB, price is RS 23,999","smart under 30000 is Redmi Note 7 Pro", "smartphone unser 30000 is Redmi Note 7 Pro","you can find the detail on shop page smartphone category."],
+         "context_set": ""
+        },
+        {"tag": "Redmi Note 8 Pro",
+         "patterns": ["Redmi Note 8 Pro", "Redmi Note 8 Pro detail?", "price of Redmi Note 8 Pro?", "best samsung mobile Redmi Note 8 Pro?", "xiaomi phone Redmi Note 8 Pro,", "Redmi Note 8 Pro", "xiaomi handset Redmi Note 8 Pro","smartphone under 30000","smartphone under 30k","Redmi Note 8 Pro detail","smartphone under 40000","Redmi Note 8 Pro"," Note 8 Pro","Redmi Note 8 Pro specification"],
+         "responses": ["price of Redmi Note 7 Pro is Rs 26,999","price is Rs 26,999", "Display: 6.53inch IPS LCD display with Full HD+ resolution,Front Camera: 20MP with f/2.0 aperture,RAM:6GB,Storage:64GB, price is RS 26,999","smart under 30000 is Redmi Note 8 Pro", "smartphone unser 30000 is Redmi Note 8 Pro","you can find the detail on shop page smartphone category."],
+         "context_set": ""
+        },
+        {"tag": "Redmi Note 8 Pro",
+         "patterns": ["Redmi Note 8 Pro", "Redmi Note 8 Pro detail?", "price of Redmi Note 8 Pro?", "best samsung mobile Redmi Note 8 Pro?", "xiaomi phone Redmi Note 8 Pro,", "Redmi Note 8 Pro", "xiaomi handset Redmi Note 8 Pro","smartphone under 30000","smartphone under 30k","Redmi Note 8 Pro detail","smartphone under 40000","Redmi Note 8 Pro"," Note 8 Pro","Redmi Note 8 Pro specification"],
+         "responses": ["price of Redmi Note 7 Pro is Rs 26,999","price is Rs 26,999", "Display: 6.53inch IPS LCD display with Full HD+ resolution,Front Camera: 20MP with f/2.0 aperture,RAM:6GB,Storage:64GB, price is RS 26,999","smart under 30000 is Redmi Note 8 Pro", "smartphone unser 30000 is Redmi Note 8 Pro","you can find the detail on shop page smartphone category."],
+         "context_set": ""
+        },
+        {"tag": "Redmi K20 Pro",
+         "patterns": ["Redmi K20 Pro", "Redmi K20 Pro detail?", "price of Redmi K20 Pro?", "best samsung mobile Redmi K20 Pro?", "xiaomi phone Redmi K20 Pro,", "Redmi K20 Pro", "xiaomi handset Redmi Redmi K20 Pro","smartphone under 50000","smartphone under 50k","Redmi K20 Pro detail","smartphone under 50000","Redmi K20 Pro","K20 Pro","Redmi K20 Pro specification"],
+         "responses": ["price of Redmi Note 7 Pro is Rs 49,999","price is Rs 49,999", "Display: 6.39 inch (1080*2340), Super AMOLED capacitive touchscreen,Front Camera: 20MP with f/2.0 aperture,RAM:8GB,Storage:256GB, price is RS 49,999","smart under 50000 is Redmi K20 Pro", "smartphone unser 60000 is Redmi K20 Pro","you can find the detail on shop page smartphone category."],
+         "context_set": ""
+        },
+        {"tag": "Laptop",
+         "patterns": ["what kinds of laptop are available?", "Laptop detail?", "Laptop company?", "best Laptop", "Laptop","Lap","laptop suggestion","laptop detail","brands of laptop","Lapto","latest laptop","new laptop"],
+         "responses": ["currently we have only 2 brands. DELL, MSI", "You can find the Laptop detail in shop page","laptop like DELL, MSI are available.","currently,two brands are available, Dell and MSI"],
+         "context_set": ""
+        },
+        {"tag": "dell laptop",
+         "patterns": ["dell laptop", "dell laptop detail?", "dell company?", "best dell laptop?", "dell laptop,", "dell","phone of dell laptop nepal","dell laptop gadget","dell laptop detail","dell laptop available","latest dell laptop"],
+         "responses": ["list of dell laptop are DELL Inspiron 5570,DELL Inspiron 7370 and DELL Inspiron XPS 13 7390", "DELL Inspiron 5570,DELL Inspiron 7370 and DELL Inspiron XPS 13 7390","DELL Inspiron 5570,DELL Inspiron 7370 and DELL Inspiron XPS 13 7390 are available","you can find DELL laptop in shop page. currently DELL Inspiron 5570,DELL Inspiron 7370 and DELL Inspiron XPS 13 7390 are available"],
+         "context_set": ""
+        },
+        {"tag": "dell Inspiron 5570",
+         "patterns": ["dell Inspiron 5570", "dell Inspiron 5570 detail?", "price of dell Inspiron 5570?", "best dell laptop dell Inspiron 5570?","dell laptop dell Inspiron 5570,", "dell Inspiron 5570","laptop under 80000","smartphone under 80k","dell Inspiron 5570 detail","laptop under 80000","dell Inspiron 5570","dell  5570","dell Inspiron 5570 specification"],
+         "responses": ["price of dell Inspiron 5570 is Rs 80,000", "Processor 8th Generation Intel Corei7-8250U, Processor 1.6 Ghz (6M Cache, up to 3.4 GHz),Memory: 8GB DDR4 2400Mhz,Hard Drive:256GB", "price is RS 80,000","laptop under 80000 is Dell inspiron 5570","you can find the detail on shop page laptop category."],
+         "context_set": ""
+        },
+        {"tag": "dell Inspiron 7370",
+         "patterns": ["dell Inspiron 7370", "dell Inspiron 7370 detail?", "price of dell Inspiron 7370?", "best dell laptop dell Inspiron 7370?","dell laptop dell Inspiron 7370,", "dell Inspiron 7370","laptop under 100000","smartphone under 100k","dell Inspiron 7370 detail","laptop under 100000","dell Inspiron 7370","dell  7370","dell Inspiron 7370 specification"],
+         "responses": ["price of dell Inspiron 7370 is Rs 97,000","price is Rs 97,000", "Processor 8th Generation Intel Corei7-8250U, ,Memory: 8GB DDR4 2400Mhz,Hard Drive:256GB", "price is RS 97,000","laptop under 100000 is Dell inspiron 7370","you can find the detail on shop page laptop category."],
+         "context_set": ""
+        },
+        {"tag": "Dell XPS",
+         "patterns": ["dell XPS", "dell xps 7370 detail?", "price of dell xps?", "best dell laptop dell xps?","dell laptop dell xps,", "Dell XPS","laptop under 130000","smartphone under 130k","dell xps detail","xps","dell XPS specification"],
+         "responses": ["price of dell xps is Rs 128,800","price is Rs 128,800", "Processor 8th Generation Intel Corei7 ,Memory: 8GB DDR4 2400Mhz,Hard Drive:256GB", "price is RS 128,800","laptop under 150000 is Dell xps","you can find the detail on shop page laptop category."],
+         "context_set": ""
+        },
+        {"tag": "MSI laptop",
+         "patterns": ["msi laptop", "MSI laptop detail?", "msi company?", "best msi laptop?", "msi laptop,", "msi","msi laptop in nepal","msi laptop gadget","msi laptop detail","msi laptop available","latest msi laptop"],
+         "responses": ["list of MSI laptop are MSI GT75 titan,MSI GF63 and MSI  GE75", "MSI GT75 titan,MSI GF63 and MSI  GE75","MSI GT75 titan,MSI GF63 and MSI  GE75 are available","you can find MSI laptop in shop page. currently MSI GT75 titan,MSI GF63 and MSI  GE75 are available"],
+         "context_set": ""
+        },
+        {"tag": "msi GT75 titan",
+         "patterns": ["msi GT75 titan", "msi GT75 titan detail?", "price of msi GT75 titan?", "best msi laptop msi GT75 titan?", "msi laptop", "MSI GT75 titan","laptop under 350000","smartphone under 330k","msi GT75 titan detail","msi titan","msi GT75 titan specification"],
+         "responses": ["price of msi GT75 titan is Rs 3,28,900","price is Rs 3,28,900", "Intel 8thGen Coffee Lake i7 8750H 2.8GHz,Memory: 8GB DDR4 2400Mhz,Hard Drive:256GB", "price is RS ,327,000","laptop under 330000 is msi GT75 titan","you can find the detail on shop page laptop category."],
+         "context_set": ""
+        },
+        {"tag": "msi GE75",
+         "patterns": ["msi GE75", "msi GE75?", "price of msi GE75?", "best msi laptop msi GE75?", "msi laptop", "msi GE75","laptop under 200000","smartphone under 200k","msi GE75 detail","GE75","msi GE75 specification"],
+         "responses": ["price of msi msi GF63 is Rs 1,30,000","price is Rs 1,30,000","GeForce RTX 2060 6 GB GDDR6,Intel Core i7 9th Gen 9750H (2.60 GHz),Memory: 8GB DDR4 2400Mhz,Hard Drive:256GB", "price is RS 1,30,000","laptop under 130000is msi GE75","you can find the detail on shop page laptop category."],
+         "context_set": ""
+        },
+        {"tag": "msi GF63",
+         "patterns": ["msi GF63", "msi GF63 detail?", "price of msi GF63?", "best msi laptop msi GF63?", "msi laptop", "msi GF63","laptop under 150000","smartphone under 150k","msi GF63 detail"," GF63","msi GF63 specification"],
+         "responses": ["price of msi msi GF63 is Rs 1,98,800","price is Rs 1,98,800", "CPU: 9th Generation Intel® Core™ i7-9750H,Memory: 8GB DDR4 2400Mhz,Hard Drive:256GB", "price is RS 1,30,000","laptop under 150000 is msi GF63","you can find the detail on shop page laptop category."],
+         "context_set": ""
+        },
+        {"tag": "TV",
+         "patterns": ["what kinds of TV are available?", "TV detail?", "TV company?", "best TV", "TV","TV suggestion","Tv brands","television","television on your page","latest tv","new tv"],
+         "responses": ["currently we have only 2 brands. Samsung, XIaomi", "You can find the TV detail in shop page","Samsung, Xiaomi tv are available.","currently,two brands are available, Samsung and Xiaomi"],
+         "context_set": ""
+        },
+        {"tag": "samsung tv",
+         "patterns": ["samsung tv", "samsung tv detail?","samsung tv company?", "best samsung tv?", "samsung tv,", "tv of samsung","tv of samsung in nepal","samsung tv gadget","samsung tv detail","samsung tv available","latest samsung tv"],
+         "responses": ["list of dell samsung tv are samsung smart uhd tv samsung fhd smart led tv and samsung uhd tv are available", "samsung tv are samsung smart uhd tv samsung fhd smart led tv and samsung uhd tv","samsung tv are samsung smar tv categoryt. currently samsung uhd tv, samsung fhd smart led tv and samsung uhd tv are available","you can find samsung TV in shop page. currently  samsung smart uhd tv, samsung fhd smart led tv and samsung uhd tv are available"],
+         "context_set": ""
+        },
+        {"tag": "samsung smart uhd tv",
+         "patterns": ["samsung smart uhd tv", "samsung smart uhd tv detail?", "price of samsung smart uhd tv?", "best samsung smart uhd tv?", "samsung smart uhd tv", "samsung smart uhd tv","tv under 80000","tv under 80k","samsung smart uhd tv detail"," samsung television","samsung smart uhd tv specification"],
+         "responses": ["price of samsung smart uhd tv is Rs 78,500","price is Rs 78,500", "Screen Type: 4K,Screen Size: 42.5 Inch,Screen Resolution: 3840 X 2160, price is 78,500","tv under 80000 is samsung smart uhd tv","you can find the detail on shop page tv category."],
+         "context_set": ""
+        },
+        {"tag": "samsung fhd smart led tv",
+         "patterns": ["samsung fhd smart led tv", "samsung fhd smart led tv detail?", "price of samsung fhd smart led tv?", "best samsung fhd smart led tv?", "samsung fhd smart led tv"," fhd smart led tv","tv under 80000","tv under 80k","samsung fhd smart led tv detail"," samsung television","samsung fhd smart led tv specification"],
+         "responses": ["price of samsung fhd smart led tv is Rs 75,500","price is Rs 75,500", "Screen Type: 4K,Screen Size: 42.5 Inch,Screen Type: 4K,Screen Resolution: 3840 X 2160, price is 75,000","tv under 80000 is samsung fhd smart led tv","you can find the detail on shop page tv category."],
+         "context_set": ""
+        },
+        {"tag": "samsung uhd tv",
+         "patterns": ["samsung uhd tv", "samsung uhd tv detail?", "price of samsung uhd tv?", "best samsung uhd tv?", "samsung samsung uhd tv","samsung uhd tv","tv under 160000","tv under 160k","samsung samsung uhd tv detail"," samsung television","samsung uhd tv specification"],
+         "responses": ["price of samsung uhd tv is Rs 160,000","price is Rs 160,000", "Screen Type: 4K,Screen Size: 49 Inch,Screen Type: 4K,Screen Resolution: 3840 x 2160 Ultra HD (4K), price is 160,000","tv under 200000 is samsung uhd tv","you can find the detail on shop page tv category."],
+         "context_set": ""
+        },
+        {"tag": "mi tv",
+         "patterns": ["mi tv", "mi tv detail?","mi tv company?", "best mi tv?", "mi tv,", "tv of mi","tv of mi in nepal","mi tv gadget","mi tv detail","mi tv available","latest mi tv"],
+         "responses": ["list of mi tv are Mi TV 4S, Mi LED TV 4A PRO  and Mi TV 4X", "Mi TV 4S, Mi LED TV 4A PRO  and Mi TV 4X","Mi TV 4S, Mi LED TV 4A PRO  and Mi TV 4X are available","you can find mi tv on shop page. currently Mi TV 4S, Mi LED TV 4A PRO  and Mi TV 4X are available"],
+         "context_set": ""
+        },
+        {"tag": "mi led 4a pro tv",
+         "patterns": ["mi led 4a pro tv","mi led 4a pro tv detail?", "mi led tv?", "best mi led 4a pro tv?", "mi led 4a "," 4a pro tv","tv under 40000","tv under 40k","mi led 4a pro tv detail","mi television","mi led 4a pro tv specification"],
+         "responses": ["price of mi tv 4s is Rs 34,000","price is Rs 34,000", "1GB+8GB,RAM?1GB DDR,Storage: 8GB eMMC, price is 34000","tv under 34000 is mi led 4a pro","you can find the detail on shop page tv category."],
+         "context_set": ""
+        },
+        {"tag": "mi tv 4s",
+         "patterns": ["mi tv 4s", "mi tv 4s detail?", "mi tv 4s tv?", "best mi tv 4s?", "mi 4s","4s","tv under 90000","tv under 90k","mi tv 4x detail","mi television","mi tv 4x specification"],
+         "responses": ["price of mi tv 4s is Rs 1,00,000","price is Rs 1,00,000", "43 -inch (3840 × 2160 pixels) display with 178-degree viewing angle, HDR 10,Screen Type: 4K,Screen Resolution: 3840 x 2160 Ultra HD (4K), price is 1,00,000","tv under 100000 is mi tv 4s","you can find the detail on shop page tv category."],
+         "context_set": ""
+        },
+        {"tag": "mi tv 4x",
+         "patterns": ["mi tv 4x", "mi tv 4x detail?", "mi tv 4x tv?", "best mi tv 4x?", "mi 4x","4x","tv under 100000","tv under 100k","mi tv 4s detail","mi television","mi tv 4s specification"],
+         "responses": ["price of mi tv 4s is Rs 87,999","price is Rs 87,999", "43 -inch (3840 × 2160 pixels) display with 178-degree viewing angle, HDR 10,2GB RAM, 8GB storage, price is 87,999","tv under 87,999 is mi tv 4x","you can find the detail on shop page tv category."],
+         "context_set": ""
+        },
+        {"tag": "register",
+         "patterns": ["register", "How do i register?", "should i register","register options","reg","signup","should i register?","how d i login","login form"],
+         "responses": ["you need to register to buy the product.","you can find the register form on register page.","by register you can login ","please go to register page to register."],
+         "context_set": ""
+        },
+        {"tag": "login",
+         "patterns": ["login", "signin", "login option","should i login?","should i login to buy the product","what are login options?","login option","how do i login","log in"],
+         "responses": ["login through login page","please register first to login.","you should first register to login."],
+         "context_set": ""
+         },
+         {"tag": "Deliver",
+         "patterns": ["How do you deliver?", "delivery facility", "how can i get the product","deliver system","when do i get my product?","process of deliver","how do you deliver the product?","delivery"],
+         "responses": ["maximum 3 to 4 days of order","we will deliver the products in 4 days of order.","3 to 4 days of order"],
+         "context_set": ""
+        }
+   ]
+}
+
+
