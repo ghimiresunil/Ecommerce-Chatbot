@@ -1,5 +1,3 @@
-# ecommerce chatbot
-
 ## Introduction
 
 ![](https://graspcoding.com/wp-content/uploads/2020/08/Chatbot-AI-project.png)
