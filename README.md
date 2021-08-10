@@ -2,6 +2,8 @@
 
 ## Introduction
 
+![](https://graspcoding.com/wp-content/uploads/2020/08/Chatbot-AI-project.png)
+
 In this project, we’ll build a retrieval based chatbot. As we all know, chatbot usually works as an assistant to the customer. And the main purpose of the chatbot is to assist business terms in their consumer interaction by providing accuracy, customization,  reliability, and scalability. Thus, while building a chatbot we are using Keras which is a Deep Learning Library, Natural Language Processing Toolkit (NLTK), Tkinter, and some other helpful libraries. 
 
 ## Steps involved to know how retrieval based chatbot work
@@ -30,5 +32,6 @@ In this project, we’ll build a retrieval based chatbot. As we all know, chatbo
 
 ## Final result
 
+https://user-images.githubusercontent.com/40186859/128869013-14e8420f-27cc-4351-9291-2649205d4c3b.mp4
 
 <h3> Feel free to play with Tkinter and Turtle . If you have a crazy idea, then pull request 😊 </h3>
